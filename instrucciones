@@ -1,0 +1,20 @@
+wget http://nodejs.org/dist/v8.9.4/node-v8.9.4-linux-x64.tar.gz
+sudo tar -C /usr/local --strip-components 1 -xzf node-v8.1.1-linux-x64.tar.gz
+cd /media/julian/Windows/Users/julia/Mis\ documentos/D/wossha/prueba
+
+1 npm init --yes
+2 npm install -S react react-dom react-dom-factories //El -S es para que se guarde en el package.js y cuando no es dependencia de desarrollo
+3 crear en la raiz carpeta source
+4 dentro de source se crea archivo server.js
+
+5 npm i -D -g webpack // el -D es porque es una dependencia solo de desarrollo
+6 crear en el directorio raiz del proyecto carperta webpack
+7 en la carpeta webpack crear archivo webpack.server.config.js //es prque estamos en servidor, normalmente es webpack.config.js
+
+8 crear en el directorio raiz la carpeta built/server
+
+9 crear el archivo webpack.config.js en la carpeta raiz 
+
+10 npm i -D babel-core babel-loader babel-preset-latest-minimal babel-preset-react json-loader
+
+11 node built/server/index.js
