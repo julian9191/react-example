@@ -12,5 +12,5 @@ Ejecutar:
 ```
 # npm install
 # webpack webpack.config.js 
-# node built/server/index.js
+# node built/server/index.js  
 ```
